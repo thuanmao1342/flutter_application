@@ -42,7 +42,7 @@ class _BlockComponentState extends State<BlockComponent> {
               ),
             ),
             const SizedBox(
-              height: 3,
+              height: 1,
             ),
             _buildListQuestion()
           ]),

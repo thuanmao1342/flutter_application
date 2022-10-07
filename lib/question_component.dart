@@ -18,26 +18,23 @@ class _QuestionComponentState extends State<QuestionComponent> {
     return Row(
       children: [
         Expanded(child: QueryComponent(querys: listQuery)),
-        Container(
-          alignment: Alignment.bottomRight,
-          child: ElevatedButton(
-            onPressed: () {
-              debugPrint('on 再回答 data');
-            },
-            child: const Text('再回答',
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 15,
-                )),
-            style: ElevatedButton.styleFrom(
-              shadowColor: null,
-              primary: Colors.white,
-              onPrimary: Colors.black,
-              minimumSize: const Size(77, 32),
-              shape: const RoundedRectangleBorder(
-                  borderRadius: BorderRadius.all(Radius.circular(5)),
-                  side: BorderSide(color: Colors.black12)),
-            ),
+        ElevatedButton(
+          onPressed: () {
+            debugPrint('on 再回答 data');
+          },
+          child: const Text('再回答',
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 15,
+              )),
+          style: ElevatedButton.styleFrom(
+            shadowColor: null,
+            primary: Colors.white,
+            onPrimary: Colors.black,
+            minimumSize: const Size(77, 32),
+            shape: const RoundedRectangleBorder(
+                borderRadius: BorderRadius.all(Radius.circular(5)),
+                side: BorderSide(color: Colors.black12)),
           ),
         ),
       ],

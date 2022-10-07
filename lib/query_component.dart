@@ -23,8 +23,12 @@ class _QueryComponentState extends State<QueryComponent> {
         itemBuilder: (context, i) {
           return widget.querys[i].type == 1
               ? Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Image.asset("assets/images/query_open.png"),
+                    Padding(
+                      padding: const EdgeInsets.only(top: 3),
+                      child: Image.asset("assets/images/query_open.png"),
+                    ),
                     const SizedBox(width: 8),
                     Expanded(
                       child: Text(widget.querys[i].query,
@@ -36,8 +40,12 @@ class _QueryComponentState extends State<QueryComponent> {
                   ],
                 )
               : Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Image.asset("assets/images/query_as.png"),
+                    Padding(
+                      padding: const EdgeInsets.only(top: 3),
+                      child: Image.asset("assets/images/query_as.png"),
+                    ),
                     const SizedBox(width: 8),
                     Expanded(
                       child: Text(widget.querys[i].query,

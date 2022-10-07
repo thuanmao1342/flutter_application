@@ -33,10 +33,11 @@ class Service {
   _initQueries() {
     queries.add(Query(1, 'クエリ1尊敬される尊敬される尊敬される尊敬される尊敬される尊敬される尊敬される', 1, 1));
     queries.add(Query(2, 'クエリ2', 1, 1));
-    queries.add(Query(3, 'クエリ3', 0, 1));
+    queries.add(Query(3, 'クエリ3尊敬される尊敬される尊敬される尊敬される尊敬される尊敬される尊敬される', 0, 1));
     queries.add(Query(4, 'クエリ4', 0, 2));
     queries.add(Query(5, 'クエリ5', 0, 1));
     queries.add(Query(6, 'クエリ6', 0, 1));
+    queries.add(Query(7, 'クエリ7', 1, 3));
   }
 
   _initQuestions() {
