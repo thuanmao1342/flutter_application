@@ -55,3 +55,4 @@ flutter:
   generate: true
   assets:
     - assets/images/query_open.png
+    - assets/images/query_as.png
