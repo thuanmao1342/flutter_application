@@ -56,3 +56,4 @@ flutter:
   assets:
     - assets/images/query_open.png
     - assets/images/query_as.png
+    - assets/images/success_check_circle.png
